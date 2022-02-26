@@ -45,7 +45,7 @@ task generateRelease {
     }
 }
 
-generateRelease.dependsOn(uploadArchives)
+// generateRelease.dependsOn(uploadArchives)
 generateRelease.dependsOn(zipRelease)
 
 
